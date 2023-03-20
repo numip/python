@@ -77,29 +77,3 @@ print(lib.library)
 print(lib.search_book('Emma', lib.library))
 print(lib.sorted_book(lib.library))
 print(lib.delete_book('Emma', lib.library))
-
-
-
-
-
-
-
-
-
-
-
-
-
-# С помощью классов создать новый тип данных изменяемая строка
-# Можно добавить изменение через метод или через магические методы
-# Подсказка: строка это массив (список) char
-# res = 'str'.replace('s','r')
-# print(res)
-# res = [1, 2, 3]
-# res[0] = 3
-# print(res)
-#
-# my_str = 'hello, world'  # в результате выполнения задания id должны быть одинаковые
-# print(id(my_str))
-# result = my_str.replace('h', 'q')
-# print(id(result))
